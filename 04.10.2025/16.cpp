@@ -3,7 +3,6 @@ using namespace std;
 
 int main() {
     int n, original, reversed = 0;
-    cout << "Въведете число: ";
     cin >> n;
     original = n;
 
@@ -14,9 +13,9 @@ int main() {
     }
 
     if (original == reversed) {
-        cout << "Числото е палиндром." << endl;
+        cout << "YES" << endl;
     } else {
-        cout << "Числото не е палиндром." << endl;
+        cout << "NO" << endl;
     }
 
     return 0;
