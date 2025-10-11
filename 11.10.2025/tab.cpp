@@ -14,7 +14,7 @@ int main(){
         for(int j=0; j<=n-1; j++){
             // cout<<tab[j]<<" ";
             if(tab[j]>n){
-                cout<<tab[j]-pow(2,tab[j]-k)<<" ";
+                cout<<2*n-tab[j]<<" ";
             }else{
                 cout<<tab[j]<<" ";
             }
